@@ -7,7 +7,7 @@
   <name>DktBrokerStandalone</name>
   
   <parent>
-    <groupId>eu.freme.core</groupId>
+    <groupId>eu.freme</groupId>
     <artifactId>freme-parent</artifactId>
     <version>0.1-SNAPSHOT</version>
   </parent>
