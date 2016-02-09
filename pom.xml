@@ -28,6 +28,11 @@
 		  <artifactId>e-openNLPUpdate</artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+		  <groupId>de.dkt</groupId>
+		  <artifactId>e-coreNLPUpdate</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
