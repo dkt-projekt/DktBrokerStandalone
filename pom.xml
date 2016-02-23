@@ -12,6 +12,8 @@
     <version>0.1-SNAPSHOT</version>
   </parent>
 	
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>eu.freme.bservices</groupId>
@@ -33,6 +35,8 @@
 		  <artifactId>e-coreNLPUpdate</artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
+		
 	</dependencies>
 	<repositories>
 		<repository>
