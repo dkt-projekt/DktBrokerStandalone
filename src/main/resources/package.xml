@@ -12,5 +12,6 @@
 	<import resource="classpath:spring-configurations/eopennlp.xml" />
 	<import resource="classpath:spring-configurations/ecorenlp.xml" />
 	<import resource="classpath:spring-configurations/erattlesnakenlp.xml" />
+	<import resource="classpath:spring-configurations/emallet.xml" />
 	
 </beans>
