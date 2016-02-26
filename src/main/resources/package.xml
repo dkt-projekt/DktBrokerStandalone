@@ -14,4 +14,6 @@
 	<import resource="classpath:spring-configurations/erattlesnakenlp.xml" />
 	<import resource="classpath:spring-configurations/emallet.xml" />
 	
+	<import resource="classpath:spring-configurations/cors-filter.xml" />
+	
 </beans>

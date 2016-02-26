@@ -40,6 +40,12 @@
 		  <artifactId>e-Mallet</artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>eu.freme.bservices.filters</groupId>
+			<artifactId>cors-filter</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
 
 	</dependencies>
 	<repositories>
