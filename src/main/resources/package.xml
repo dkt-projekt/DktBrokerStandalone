@@ -13,7 +13,7 @@
 	<import resource="classpath:spring-configurations/ecorenlp.xml" />
 	<import resource="classpath:spring-configurations/erattlesnakenlp.xml" />
 	<import resource="classpath:spring-configurations/emallet.xml" />
-	
 	<import resource="classpath:spring-configurations/cors-filter.xml" />
+	<import resource="classpath:spring-configurations/eweka.xml" />
 	
 </beans>

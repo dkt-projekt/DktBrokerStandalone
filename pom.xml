@@ -40,6 +40,11 @@
 		  <artifactId>e-Mallet</artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>de.dkt</groupId>
+  			<artifactId>e-WekaUpdate</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  		</dependency>
 		
 		<dependency>
 			<groupId>eu.freme.bservices.filters</groupId>
