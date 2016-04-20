@@ -104,4 +104,11 @@
 			</plugin>
 		</plugins>
 	</build>
+        <scm>
+                <connection>scm:git:git@github.com:dkt-projekt/DktBrokerStandalone.git</connection>
+                <url>scm:git:git@github.com/dkt-projekt/DktBrokerStandalone.git</url>
+                <developerConnection>scm:git:git@github.com:dkt-projekt/DktBrokerStandalone.git</developerConnection>
+                <tag>HEAD</tag>
+        </scm>
+
 </project>
