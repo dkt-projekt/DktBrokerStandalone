@@ -10,18 +10,18 @@
 	<parent>
 		<groupId>eu.freme.packages</groupId>
 		<artifactId>package-parent</artifactId>
-		<version>0.2-SNAPSHOT</version>
+		<version>0.2</version>
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>eu.freme.bservices</groupId>
-			<artifactId>user-controller</artifactId>
-			<version>0.1-SNAPSHOT</version>
+			<groupId>eu.freme.bservices.controllers</groupId>
+			<artifactId>users</artifactId>
+			<version>0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-NLP</artifactId>
-			<version>0.1-SNAPSHOT</version>
+			<version>0.1</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ch.qos.logback</groupId>
@@ -33,19 +33,19 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-Clustering</artifactId>
-		  <version>0.1-SNAPSHOT</version>
+		  <version>0.1</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>eu.freme.bservices.filters</groupId>
 			<artifactId>cors-filter</artifactId>
-			<version>0.1-SNAPSHOT</version>
+			<version>0.1</version>
 		</dependency>
 
 		<dependency>
-			<groupId>eu.freme.bservices.filter</groupId>
+			<groupId>eu.freme.bservices.filters</groupId>
 			<artifactId>logging</artifactId>
-			<version>0.1-SNAPSHOT</version>
+			<version>0.1</version>
 		</dependency>
 	</dependencies>
 	<repositories>
