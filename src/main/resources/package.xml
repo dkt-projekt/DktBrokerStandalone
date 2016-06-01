@@ -16,5 +16,6 @@
 	<import resource="classpath:spring-configurations/cors-filter.xml" />
 	<import resource="classpath:spring-configurations/logging.xml" />
 	
+	<import resource="classpath:spring-configurations/e-smt.xml" />
 	
 </beans>

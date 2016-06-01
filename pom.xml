@@ -34,7 +34,13 @@
 		  <artifactId>e-Clustering</artifactId>
 		  <version>0.1</version>
 		</dependency>
-		
+
+		<dependency>
+		  <groupId>de.dkt</groupId>
+		  <artifactId>e-smt</artifactId>
+		  <version>0.1-SNAPSHOT</version>
+		</dependency>
+				
 		<dependency>
 			<groupId>eu.freme.bservices.filters</groupId>
 			<artifactId>cors-filter</artifactId>
