@@ -20,7 +20,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-NLP</artifactId>
-			<version>0.1</version>
+			<version>0.2-SNAPSHOT</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ch.qos.logback</groupId>
@@ -32,7 +32,7 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-Clustering</artifactId>
-		  <version>0.1</version>
+		  <version>0.2-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
