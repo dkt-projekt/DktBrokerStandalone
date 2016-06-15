@@ -3,7 +3,7 @@
 
   <groupId>de.dkt</groupId>
   <artifactId>DktBroker-standalone</artifactId>
-  <version>0.2-SNAPSHOT</version>
+  <version>0.2</version>
   <name>DktBrokerStandalone</name>
 
 	<parent>
