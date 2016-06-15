@@ -20,7 +20,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-NLP</artifactId>
-			<version>0.2-SNAPSHOT</version>
+			<version>0.2</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ch.qos.logback</groupId>
@@ -32,13 +32,13 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-Clustering</artifactId>
-		  <version>0.2-SNAPSHOT</version>
+		  <version>0.2</version>
 		</dependency>
 
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-smt</artifactId>
-		  <version>0.1-SNAPSHOT</version>
+		  <version>0.1</version>
 		</dependency>
 				
 		<dependency>
@@ -55,12 +55,12 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		 <artifactId>e-Sesame</artifactId>
-		 <version>0.0.1-SNAPSHOT</version>
+		 <version>0.1</version>
 		</dependency>
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-feedback</artifactId>
-		  <version>0.0.1-SNAPSHOT</version>	
+		  <version>0.1</version>	
 		</dependency>
 	</dependencies>
 	<repositories>
