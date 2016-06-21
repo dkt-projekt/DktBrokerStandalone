@@ -114,6 +114,7 @@
 					<nonFilteredFileExtensions>
 						<nonFilteredFileExtension>bin</nonFilteredFileExtension>
 						<nonFilteredFileExtension>ext</nonFilteredFileExtension>
+						<nonFilteredFileExtension>tagger</nonFilteredFileExtension>
 					</nonFilteredFileExtensions>
 				</configuration>
 			</plugin>
