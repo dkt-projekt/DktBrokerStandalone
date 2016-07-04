@@ -32,7 +32,7 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-Clustering</artifactId>
-		  <version>0.2</version>
+		  <version>0.3-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -55,12 +55,12 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		 <artifactId>e-Sesame</artifactId>
-		 <version>0.1</version>
+		 <version>0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-feedback</artifactId>
-		  <version>0.1</version>	
+		  <version>0.2-SNAPSHOT</version>	
 		</dependency>
 		<dependency>
 		  <groupId>de.dkt</groupId>
