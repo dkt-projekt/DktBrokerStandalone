@@ -21,5 +21,8 @@
 	<import resource="classpath:spring-configurations/e-smt.xml" />
 
 	<import resource="classpath:spring-configurations/eparrotrepository.xml" />
+	<import resource="classpath:spring-configurations/pipelines.xml" />
+
+	<import resource="classpath:spring-configurations/edocumentstorage.xml" />
 	
 </beans>
