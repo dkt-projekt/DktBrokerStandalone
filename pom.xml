@@ -20,7 +20,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-NLP</artifactId>
-			<version>0.3</version>
+			<version>0.4-SNAPSHOT</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ch.qos.logback</groupId>
@@ -32,13 +32,13 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-Clustering</artifactId>
-		  <version>0.3</version>
+		  <version>0.4-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-smt</artifactId>
-		  <version>0.3</version>
+		  <version>0.4-SNAPSHOT</version>
 		</dependency>
 				
 		<dependency>
@@ -55,7 +55,7 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		 <artifactId>e-Sesame</artifactId>
-		 <version>0.3</version>
+		 <version>0.4-SNAPSHOT</version>
 		 <exclusions>
 		 	<exclusion>
 		 		<artifactId>logback-core</artifactId>
@@ -70,12 +70,12 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-feedback</artifactId>
-		  <version>0.3</version>	
+		  <version>0.4-SNAPSHOT</version>	
 		</dependency>
 		<dependency>
 		  <groupId>de.dkt</groupId>
 			<artifactId>e-ParrotLinkedData</artifactId>
-			<version>0.3</version>
+			<version>0.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 		  <groupId>eu.freme.bservices.controllers</groupId>
@@ -85,7 +85,7 @@
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>DocumentStorage</artifactId>
-		  <version>0.3</version>
+		  <version>0.4-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<repositories>
