@@ -141,6 +141,7 @@
 						<nonFilteredFileExtension>bin</nonFilteredFileExtension>
 						<nonFilteredFileExtension>ext</nonFilteredFileExtension>
 						<nonFilteredFileExtension>tagger</nonFilteredFileExtension>
+						<nonFilteredFileExtension>ser</nonFilteredFileExtension>
 					</nonFilteredFileExtensions>
 				</configuration>
 			</plugin>
