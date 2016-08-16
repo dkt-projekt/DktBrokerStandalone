@@ -142,7 +142,6 @@
 						<nonFilteredFileExtension>ext</nonFilteredFileExtension>
 						<nonFilteredFileExtension>tagger</nonFilteredFileExtension>
 						<nonFilteredFileExtension>ser</nonFilteredFileExtension>
-						<nonFilteredFileExtension>txt</nonFilteredFileExtension>
 					</nonFilteredFileExtensions>
 				</configuration>
 			</plugin>
