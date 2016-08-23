@@ -9,13 +9,12 @@
 	<parent>
 		<groupId>eu.freme.packages</groupId>
 		<artifactId>package-parent</artifactId>
-		<version>0.2</version>
+		<version>0.9</version>
 	</parent>
 	<dependencies>
 		<dependency>
 			<groupId>eu.freme.bservices.controllers</groupId>
 			<artifactId>users</artifactId>
-			<version>0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
@@ -44,13 +43,11 @@
 		<dependency>
 			<groupId>eu.freme.bservices.filters</groupId>
 			<artifactId>cors-filter</artifactId>
-			<version>0.2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>eu.freme.bservices.filters</groupId>
 			<artifactId>logging</artifactId>
-			<version>0.2</version>
 		</dependency>
 		<dependency>
 		  <groupId>de.dkt</groupId>
@@ -80,7 +77,6 @@
 		<dependency>
 		  <groupId>eu.freme.bservices.controllers</groupId>
 			<artifactId>pipelines</artifactId>
-			<version>0.3</version>
 		</dependency>
 		<dependency>
 		  <groupId>de.dkt</groupId>
