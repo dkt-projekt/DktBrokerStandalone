@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>de.dkt</groupId>
-  <artifactId>DktBroker-standalone</artifactId>
-  <version>0.4-SNAPSHOT</version>
-  <name>DktBrokerStandalone</name>
+	<groupId>de.dkt</groupId>
+	<artifactId>DktBroker-standalone</artifactId>
+	<version>0.4-SNAPSHOT</version>
+	<name>DktBrokerStandalone</name>
 
 	<parent>
 		<groupId>eu.freme.packages</groupId>
@@ -27,19 +28,19 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<dependency>
-		  <groupId>de.dkt</groupId>
-		  <artifactId>e-Clustering</artifactId>
-		  <version>0.4-SNAPSHOT</version>
+			<groupId>de.dkt</groupId>
+			<artifactId>e-Clustering</artifactId>
+			<version>0.4-SNAPSHOT</version>
 		</dependency>
-		
+
 		<dependency>
-		  <groupId>de.dkt</groupId>
-		  <artifactId>e-smt</artifactId>
-		  <version>0.4-SNAPSHOT</version>
+			<groupId>de.dkt</groupId>
+			<artifactId>e-smt</artifactId>
+			<version>0.4-SNAPSHOT</version>
 		</dependency>
-				
+
 		<dependency>
 			<groupId>eu.freme.bservices.filters</groupId>
 			<artifactId>cors-filter</artifactId>
@@ -50,40 +51,40 @@
 			<artifactId>logging</artifactId>
 		</dependency>
 		<dependency>
-		  <groupId>de.dkt</groupId>
-		 <artifactId>e-Sesame</artifactId>
-		 <version>0.4-SNAPSHOT</version>
-		 <exclusions>
-		 	<exclusion>
-		 		<artifactId>logback-core</artifactId>
-		 		<groupId>ch.qos.logback</groupId>
-		 	</exclusion>
-		 	<exclusion>
-		 		<artifactId>logback-classic</artifactId>
-		 		<groupId>ch.qos.logback</groupId>
-		 	</exclusion>
-		 </exclusions>
+			<groupId>de.dkt</groupId>
+			<artifactId>e-Sesame</artifactId>
+			<version>0.4-SNAPSHOT</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>logback-core</artifactId>
+					<groupId>ch.qos.logback</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>logback-classic</artifactId>
+					<groupId>ch.qos.logback</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
-		  <groupId>de.dkt</groupId>
-		  <artifactId>e-feedback</artifactId>
-		  <version>0.4-SNAPSHOT</version>	
+			<groupId>de.dkt</groupId>
+			<artifactId>e-feedback</artifactId>
+			<version>0.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-		  <groupId>de.dkt</groupId>
+			<groupId>de.dkt</groupId>
 			<artifactId>e-ParrotLinkedData</artifactId>
 			<version>0.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-		  <groupId>eu.freme.bservices.controllers</groupId>
+			<groupId>eu.freme.bservices.controllers</groupId>
 			<artifactId>pipelines</artifactId>
 		</dependency>
 		<dependency>
-		  <groupId>de.dkt</groupId>
-		  <artifactId>DocumentStorage</artifactId>
-		  <version>0.4-SNAPSHOT</version>
+			<groupId>de.dkt</groupId>
+			<artifactId>DocumentStorage</artifactId>
+			<version>0.4-SNAPSHOT</version>
 		</dependency>
-		
+
 	</dependencies>
 	<repositories>
 		<repository>
@@ -143,11 +144,11 @@
 			</plugin>
 		</plugins>
 	</build>
-        <scm>
-                <connection>scm:git:git@github.com:dkt-projekt/DktBrokerStandalone.git</connection>
-                <url>scm:git:git@github.com/dkt-projekt/DktBrokerStandalone.git</url>
-                <developerConnection>scm:git:git@github.com:dkt-projekt/DktBrokerStandalone.git</developerConnection>
-                <tag>HEAD</tag>
-        </scm>
+	<scm>
+		<connection>scm:git:git@github.com:dkt-projekt/DktBrokerStandalone.git</connection>
+		<url>scm:git:git@github.com/dkt-projekt/DktBrokerStandalone.git</url>
+		<developerConnection>scm:git:git@github.com:dkt-projekt/DktBrokerStandalone.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 </project>
