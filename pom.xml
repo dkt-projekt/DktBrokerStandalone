@@ -34,6 +34,11 @@
 			<artifactId>e-Clustering</artifactId>
 			<version>0.4-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>de.dkt</groupId>
+			<artifactId>e-CorefResolution</artifactId>
+			<version>0.4-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>de.dkt</groupId>
