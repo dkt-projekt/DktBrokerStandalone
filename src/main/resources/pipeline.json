@@ -9,7 +9,7 @@
      "mode": "all"
   },
   "headers": {
-    "content-type": "text/plain",
+    "content-type": "text/turtle",
     "accept": "text/turtle"
   }
 },
