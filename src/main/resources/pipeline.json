@@ -14,15 +14,10 @@
   }
 },
 {
-  "method": "POST",
-  "endpoint": "http://dev.digitale-kuratierung.de/api/e-sesame/storeData",
+  "method": "PUT",
+  "endpoint": "http://dev.digitale-kuratierung.de:8890/sparql-graph-crud-auth",
   "parameters": {
-  	"storageName": "$collection-name$",
-  	"inputDataFormat": "body",
-  	"inputDataMimeType": "text/turtle",
-  	"storageCreate": "true"
-  },
-  "headers": {
+  	"graph-uri": "http://digitale-kuratierung.de/ns/graphs/$collection-name$"
   }
 }
 ]
