@@ -6,7 +6,7 @@
      "models": "ner-de_aij-wikinerTrainPER;ner-de_aij-wikinerTrainORG;ner-de_aij-wikinerTrainLOC", 
      "language": "de",
      "analysis": "ner",
-     "mode": "all"
+     "mode": "spot"
   },
   "headers": {
     "content-type": "text/turtle",
