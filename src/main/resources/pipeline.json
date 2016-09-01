@@ -12,12 +12,5 @@
     "content-type": "text/turtle",
     "accept": "text/turtle"
   }
-},
-{
-  "method": "PUT",
-  "endpoint": "http://dev.digitale-kuratierung.de:8890/sparql-graph-crud-auth",
-  "parameters": {
-  	"graph-uri": "http://digitale-kuratierung.de/ns/graphs/$collection-name$"
-  }
 }
 ]
