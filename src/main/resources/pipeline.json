@@ -12,5 +12,18 @@
     "content-type": "text/turtle",
     "accept": "text/turtle"
   }
+},
+{
+  "method": "POST",
+  "endpoint": "http://dev.digitale-kuratierung.de/api/e-nlp/namedEntityRecognition",
+  "parameters": {
+     "models": "germanDates", 
+     "language": "de",
+     "analysis": "temp"
+  },
+  "headers": {
+    "content-type": "text/turtle",
+    "accept": "text/turtle"
+  }
 }
 ]
