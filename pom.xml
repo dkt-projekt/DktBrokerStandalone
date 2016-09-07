@@ -89,6 +89,10 @@
 			<artifactId>DocumentStorage</artifactId>
 			<version>0.4-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>eu.freme.bservices.controllers</groupId>
+			<artifactId>nif-converter</artifactId>
+		</dependency>
 
 	</dependencies>
 	<repositories>
