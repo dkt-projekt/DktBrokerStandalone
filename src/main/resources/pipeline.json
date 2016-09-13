@@ -1,0 +1,29 @@
+[
+{
+  "method": "POST",
+  "endpoint": "http://dev.digitale-kuratierung.de/api/e-nlp/namedEntityRecognition",
+  "parameters": {
+     "models": "ner-de_aij-wikinerTrainPER;ner-de_aij-wikinerTrainORG;ner-de_aij-wikinerTrainLOC", 
+     "language": "de",
+     "analysis": "ner",
+     "mode": "spot"
+  },
+  "headers": {
+    "content-type": "text/turtle",
+    "accept": "text/turtle"
+  }
+},
+{
+  "method": "POST",
+  "endpoint": "http://dev.digitale-kuratierung.de/api/e-nlp/namedEntityRecognition",
+  "parameters": {
+     "models": "germanDates", 
+     "language": "de",
+     "analysis": "temp"
+  },
+  "headers": {
+    "content-type": "text/turtle",
+    "accept": "text/turtle"
+  }
+}
+]
