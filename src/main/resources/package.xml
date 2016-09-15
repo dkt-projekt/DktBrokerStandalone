@@ -28,5 +28,6 @@
 	<import resource="classpath:spring-configurations/pipelines.xml" />
 
 	<import resource="classpath:spring-configurations/edocumentstorage.xml" />
+	<import resource="classpath:spring-configurations/collection-services.xml" />
 	
 </beans>
