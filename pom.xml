@@ -35,7 +35,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-Clustering</artifactId>
@@ -46,16 +45,11 @@
 			<artifactId>e-CorefResolution</artifactId>
 			<version>0.4-SNAPSHOT</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-SentimentAnalysis</artifactId>
 			<version>0.4-SNAPSHOT</version>
 		</dependency>
-		
-		
-		
-
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>collection-services</artifactId>
@@ -95,6 +89,11 @@
 			<groupId>de.dkt</groupId>
 			<artifactId>e-feedback</artifactId>
 			<version>0.4-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>de.dkt</groupId>
+			<artifactId>e-lucene</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
