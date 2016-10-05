@@ -55,11 +55,11 @@
 			<artifactId>Data-Backend</artifactId>
 			<version>0.4-SNAPSHOT</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>collection-services</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-smt</artifactId>
