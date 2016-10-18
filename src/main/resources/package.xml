@@ -22,6 +22,7 @@
   	<import resource="classpath:spring-configurations/elogging.xml" />
 	<import resource="classpath:spring-configurations/esesame.xml" />
 	<import resource="classpath:spring-configurations/e-smt.xml" />
+	<import resource="classpath:spring-configurations/e-summarisation.xml" />
 	<import resource="classpath:spring-configurations/ecorefresolution.xml" />
 	<import resource="classpath:spring-configurations/esentimentanalysis.xml" />
 
