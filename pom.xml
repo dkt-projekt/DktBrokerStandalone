@@ -65,6 +65,12 @@
 			<artifactId>e-smt</artifactId>
 			<version>0.4-SNAPSHOT</version>
 		</dependency>
+		
+		<dependency>
+		  <groupId>de.dkt</groupId>
+		  <artifactId>e-summarisation</artifactId>
+		  <version>0.1-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>eu.freme.bservices.filters</groupId>

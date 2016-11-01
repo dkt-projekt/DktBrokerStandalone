@@ -1,4 +1,3 @@
 # DktBrokerStandalone
 
-
-Broker for dkt projeckt.
+Broker for dkt project.
