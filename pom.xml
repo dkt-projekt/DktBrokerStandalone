@@ -19,6 +19,16 @@
 		<argLine>-Xms1024m -Xmx5g</argLine>
 	</properties>
 	
+    <build>
+<plugins>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-release-plugin</artifactId>
+<version>2.5.3</version>
+</plugin>
+</plugins>
+</build>
+
 	<dependencies>
 		<dependency>
 			<groupId>eu.freme.bservices.controllers</groupId>
@@ -27,7 +37,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-NLP</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ch.qos.logback</groupId>
@@ -38,38 +48,38 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-Clustering</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-CorefResolution</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-SentimentAnalysis</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>Data-Backend</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 <!-- 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>collection-services</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.1</version>
 		</dependency> -->
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-smt</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 		
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-summarisation</artifactId>
-		  <version>0.1-SNAPSHOT</version>
+		  <version>0.4</version>
 		</dependency>
 
 		<dependency>
@@ -84,7 +94,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-Sesame</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.3</version>
 			<exclusions>
 				<exclusion>
 					<artifactId>logback-core</artifactId>
@@ -99,17 +109,17 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-feedback</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-lucene</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-ParrotLinkedData</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.freme.bservices.controllers</groupId>
@@ -118,7 +128,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>DocumentStorage</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.freme.bservices.controllers</groupId>
