@@ -3,7 +3,7 @@
 
 	<groupId>de.dkt</groupId>
 	<artifactId>DktBroker-standalone</artifactId>
-	<version>0.4</version>
+	<version>0.5-SNAPSHOT</version>
 	<name>DktBrokerStandalone</name>
 
 	<parent>
@@ -191,7 +191,7 @@
 		<connection>scm:git:git@github.com:dkt-projekt/DktBrokerStandalone.git</connection>
 		<url>scm:git:git@github.com/dkt-projekt/DktBrokerStandalone.git</url>
 		<developerConnection>scm:git:git@github.com:dkt-projekt/DktBrokerStandalone.git</developerConnection>
-		<tag>DktBroker-standalone-0.4</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 </project>
