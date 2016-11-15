@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.dkt</groupId>
 	<artifactId>DktBroker-standalone</artifactId>
-	<version>0.4-SNAPSHOT</version>
+	<version>0.5-SNAPSHOT</version>
 	<name>DktBrokerStandalone</name>
 
 	<parent>
@@ -18,7 +17,6 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<argLine>-Xms1024m -Xmx5g</argLine>
 	</properties>
-	
 	<dependencies>
 		<dependency>
 			<groupId>eu.freme.bservices.controllers</groupId>
@@ -27,7 +25,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-NLP</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ch.qos.logback</groupId>
@@ -38,38 +36,38 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-Clustering</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-CorefResolution</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-SentimentAnalysis</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>Data-Backend</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 <!-- 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>collection-services</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.1</version>
 		</dependency> -->
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-smt</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-summarisation</artifactId>
-		  <version>0.1-SNAPSHOT</version>
+		  <version>0.5-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -84,7 +82,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-Sesame</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.3</version>
 			<exclusions>
 				<exclusion>
 					<artifactId>logback-core</artifactId>
@@ -99,17 +97,17 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-feedback</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-lucene</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-ParrotLinkedData</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.freme.bservices.controllers</groupId>
@@ -118,7 +116,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>DocumentStorage</artifactId>
-			<version>0.4-SNAPSHOT</version>
+			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.freme.bservices.controllers</groupId>
@@ -170,6 +168,11 @@
 	</distributionManagement>
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
