@@ -74,7 +74,10 @@
 			<groupId>eu.freme.bservices.filters</groupId>
 			<artifactId>cors-filter</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>eu.freme.bservices.filters</groupId>
+			<artifactId>postprocessing</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>eu.freme.bservices.filters</groupId>
 			<artifactId>logging</artifactId>
