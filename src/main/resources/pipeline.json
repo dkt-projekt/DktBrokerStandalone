@@ -1,7 +1,7 @@
 [
 {
   "method": "POST",
-  "endpoint": "http://dev.digitale-kuratierung.de/api/e-nlp/namedEntityRecognition",
+  "endpoint": "https://dev.digitale-kuratierung.de/api/e-nlp/namedEntityRecognition",
   "parameters": {
      "models": "ner-de_aij-wikinerTrainPER;ner-de_aij-wikinerTrainORG;ner-de_aij-wikinerTrainLOC", 
      "language": "de",
@@ -15,7 +15,7 @@
 },
 {
   "method": "POST",
-  "endpoint": "http://dev.digitale-kuratierung.de/api/e-nlp/namedEntityRecognition",
+  "endpoint": "https://dev.digitale-kuratierung.de/api/e-nlp/namedEntityRecognition",
   "parameters": {
      "models": "germanDates", 
      "language": "de",
