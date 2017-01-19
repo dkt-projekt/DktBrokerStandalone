@@ -110,8 +110,11 @@
 			<groupId>eu.freme-project.bservices.controllers</groupId>
 			<artifactId>nif-converter</artifactId>
 		</dependency>
-
-	</dependencies>
+		<dependency>
+			<groupId>de.dkt</groupId>
+			<artifactId>e-semanticstorytelling</artifactId>
+			<version>0.5-SNAPSHOT</version>
+		</dependency>	</dependencies>
 	<repositories>
 		  <repository>
 		    <id>maven-new-server-releases</id>

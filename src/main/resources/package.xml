@@ -26,6 +26,8 @@
 	<import resource="classpath:spring-configurations/ecorefresolution.xml" />
 	<import resource="classpath:spring-configurations/esentimentanalysis.xml" />
 
+	<import resource="classpath:spring-configurations/esst.xml" />
+
  	<import resource="classpath:spring-configurations/eparrotrepository.xml" />
 <!--	<import resource="classpath:spring-configurations/collection-services.xml" />-->
 	<import resource="classpath:spring-configurations/databackend.xml" />
