@@ -25,7 +25,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-NLP</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ch.qos.logback</groupId>
@@ -36,22 +36,22 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-Clustering</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-CorefResolution</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-SentimentAnalysis</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>Data-Backend</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 <!-- 		<dependency>
 			<groupId>de.dkt</groupId>
@@ -61,13 +61,13 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-smt</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 		
 		<dependency>
 		  <groupId>de.dkt</groupId>
 		  <artifactId>e-summarisation</artifactId>
-		  <version>0.6-SNAPSHOT</version>
+		  <version>0.6</version>
 		</dependency>
 
 		<dependency>
@@ -85,17 +85,17 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-feedback</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-lucene</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-ParrotLinkedData</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.freme-project.bservices.controllers</groupId>
@@ -104,7 +104,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>DocumentStorage</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.freme-project.bservices.controllers</groupId>
@@ -113,7 +113,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>e-semanticstorytelling</artifactId>
-			<version>0.6-SNAPSHOT</version>
+			<version>0.6</version>
 		</dependency>	</dependencies>
 	<repositories>
 		  <repository>
