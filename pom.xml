@@ -104,7 +104,7 @@
 		<dependency>
 			<groupId>de.dkt</groupId>
 			<artifactId>DocumentStorage</artifactId>
-			<version>0.6</version>
+			<version>0.7-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>eu.freme-project.bservices.controllers</groupId>
